@@ -1,8 +1,12 @@
 // IfExpressions/Task2.kt
 package ifExpressionsExercise2
 
-fun abs(number: Int): Int =
-  TODO()
+import kotlin.math.absoluteValue
+
+fun abs(number: Int): Int {
+  return number.absoluteValue
+}
+
 
 fun main() {
   println(abs(-19))  // 19
