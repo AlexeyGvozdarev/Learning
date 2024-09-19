@@ -4,7 +4,9 @@ package varAndValExercise3
 fun main() {
   var x = 1
   var y = 2
-  // TODO
+  val z = x
+  x = y
+  y = z
   println(x)
   println(y)
 }

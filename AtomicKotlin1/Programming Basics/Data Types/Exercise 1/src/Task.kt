@@ -2,5 +2,6 @@
 package dataTypesExercise1
 
 fun main() {
-  // TODO
+  var answer = 42
+  println("Kotlin: Type mismatch: inferred type is String but Int was expected")
 }
