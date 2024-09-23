@@ -2,9 +2,14 @@
 package loopingAndRangesExercise1
 
 fun factorial(n: Int): Long {
-  TODO()
+  var fact: Long = 1
+
+  for (i in 1..n){
+    fact *= i.toLong()
+  }
+  return fact
 }
 
 fun main() {
-  println(factorial(10))  // 3628800
+  println(factorial(20))  // 3628800
 }

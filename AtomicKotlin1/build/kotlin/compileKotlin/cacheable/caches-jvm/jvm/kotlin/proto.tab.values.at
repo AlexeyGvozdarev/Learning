@@ -1,4 +1,11 @@
-sInitializationExercise3TaskKt
+AClassKt
+
+
+atomictestAtomicTestKt
+*
+ baseClassInitializationExercise2TaskKt
+*
+ baseClassInitializationExercise3TaskKt
 :
 baseclassinitGreatApe3KtHouseKtOtherConstructorsKt
 
@@ -835,9 +842,11 @@ K
 withoutdefaultargumentsWithoutDefaultArgumentsKt
 "
 withoutsealedclasses
-UnSealedKt" *          ealedclasses
-UnSealedKt" *     ithoutsealedclasses
-UnSealedKt" *     ercise2TaskKt
+UnSealedKt" *     ExtensionFuncsKt
+
+innerClassesExercise1TaskKt
+
+innerClassesExercise2TaskKt
 
 innerClassesExercise3TaskKt
 h
