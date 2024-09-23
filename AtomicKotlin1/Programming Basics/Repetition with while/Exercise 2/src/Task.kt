@@ -2,7 +2,14 @@
 package repetitionWithWhileExercise2
 
 fun sum(number: Int): Int {
-  TODO()
+  var i = 1
+  var sum = 0
+
+  while (i <= number){
+    sum += i
+    i += 1
+  }
+  return sum
 }
 
 fun main() {
