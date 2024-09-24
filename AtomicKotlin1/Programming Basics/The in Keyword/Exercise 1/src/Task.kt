@@ -2,7 +2,17 @@
 package theInKeywordExercise1
 
 fun getAlphabet(): String {
-  TODO()
+  var str = mutableListOf<Char>()
+  var el = 'a'
+
+  while (el <= 'z'){
+    str.add(el)
+    el++
+  }
+  return str.toString().replace(",", "")
+                       .replace("[", "")
+                       .replace("]", "")
+                       .replace(" ", "")
 }
 
 fun main() {

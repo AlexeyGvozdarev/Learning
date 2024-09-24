@@ -1,4 +1,4 @@
-AClassKt
+StateOfAClassKt
 
 
 atomictestAtomicTestKt
@@ -842,7 +842,7 @@ K
 withoutdefaultargumentsWithoutDefaultArgumentsKt
 "
 withoutsealedclasses
-UnSealedKt" *     ExtensionFuncsKt
+UnSealedKt" *     sionFuncsKt
 
 innerClassesExercise1TaskKt
 
