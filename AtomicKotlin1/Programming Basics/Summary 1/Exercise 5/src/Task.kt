@@ -2,7 +2,14 @@
 package summaryIExercise5
 
 fun everyFifth(start: Int, end: Int) {
-  TODO()
+  var el = start - 1
+
+  while (el < end)  {
+    el += 5
+    if (el <= end)
+    println(el)
+  }
+
 }
 
 fun main() {

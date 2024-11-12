@@ -2,5 +2,6 @@
 package expressionsAndStatementsExercise1
 
 fun main() {
-  TODO()
+  println(1)
+  println("kotlin.Unit")
 }

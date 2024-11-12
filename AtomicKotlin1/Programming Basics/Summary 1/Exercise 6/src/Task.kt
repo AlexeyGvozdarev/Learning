@@ -2,7 +2,13 @@
 package summaryIExercise6
 
 fun everyFifthNonSpace(s: String) {
-  TODO()
+  var newS = s.replace(" ", "")
+  for (i in 0 .. newS.length -1){
+    if (i  % 5 == 4 ){
+      println(newS[i])
+    }
+  }
+
 }
 
 fun main() {

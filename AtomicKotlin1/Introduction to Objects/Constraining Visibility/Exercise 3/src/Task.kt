@@ -14,26 +14,30 @@ class Robot(
       inBounds
     }
   }
-
-  
+  private fun checkParam(param: Int): Int {
+   if (param <= 0) {
+     println("steps argument must be positive, is $param")
+   }
+    return param
+  }
 
   fun right(steps: Int) {
-    x += steps
+    x += checkParam(steps)
   x = crossBoundary(x)
   }
 
   fun left(steps: Int) {
-    x -= steps
+    x -= checkParam(steps)
   x = crossBoundary(x)
   }
 
   fun down(steps: Int) {
-    y += steps
+    y += checkParam(steps)
   y = crossBoundary(y)
   }
 
   fun up(steps: Int) {
-    y -= steps
+    y -= checkParam(steps)
   y = crossBoundary(y)
   }
 
@@ -44,7 +48,8 @@ class Robot(
 
 fun main() {
   val robot = Robot(10, 1, 1)
-  robot.right(-1)
+  robot.right(3)
+  robot.getLocation()
 }
 /* Output:
 steps argument must be positive, is -1

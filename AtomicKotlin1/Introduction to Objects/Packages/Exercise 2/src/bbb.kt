@@ -1,3 +1,9 @@
 // Packages/bbb.kt
+
 package bbb
-// TODO
+import K
+import aaa.*
+
+fun g(i: Int): String {
+  return  "${K()} ${fa(i)}"
+}

@@ -33,11 +33,11 @@ class Robot(val fieldSize: Int, var x: Int, var y: Int) {
 
   fun getLocation(): String = "($x, $y)"
 
-  /* Implement toString */
+  override fun toString() = "Robot(x=$x, y=$y)"
 }
 
 fun main() {
-  val robot = Robot(10, 1, 1)
+  val robot = Robot(10, 2, 3)
   println(robot)
 }
 /* Output:

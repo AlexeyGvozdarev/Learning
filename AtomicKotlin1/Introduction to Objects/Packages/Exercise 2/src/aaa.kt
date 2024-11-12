@@ -1,4 +1,8 @@
 // Packages/aaa.kt
 package aaa
 
-// TODO
+val x = 10
+
+fun fa(param: Int): Int {
+  return  param * x
+}

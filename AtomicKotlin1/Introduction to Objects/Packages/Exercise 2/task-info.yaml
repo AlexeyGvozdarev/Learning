@@ -6,36 +6,36 @@ files:
   - name: src/bbb.kt
     visible: true
     placeholders:
-      - offset: 31
-        length: 7
+      - offset: 32
+        length: 76
         placeholder_text: // TODO
         initial_state:
           length: 7
           offset: 31
         initialized_from_dependency: false
         encrypted_possible_answer: dPoPWwVkn4mmIj0cvawf2mJJshn/Npu6f1tExb2ml3q+3AtEsu1VBRHiXT+sm9C8MYLfFwWXFWeEwe2VTNiFDA==
-        selected: false
+        selected: true
         status: Unchecked
     learner_created: false
   - name: src/aaa.kt
     visible: true
     placeholders:
       - offset: 32
-        length: 7
+        length: 59
         placeholder_text: // TODO
         initial_state:
           length: 7
           offset: 32
         initialized_from_dependency: false
         encrypted_possible_answer: XYD8fkj9JtKLZal1m9+aCtxfimBFPhmEDXF1W/uiHk2aFPmtpgBaBEeRPmssES4Qz745FliRAZCXb7MuaQeieMtcGe/o29nDNsGACE5YpA4=
-        selected: false
+        selected: true
         status: Unchecked
     learner_created: false
   - name: src/Task.kt
     visible: true
     placeholders:
       - offset: 33
-        length: 7
+        length: 20
         placeholder_text: // TODO
         initial_state:
           length: 7
@@ -44,7 +44,7 @@ files:
         encrypted_possible_answer: w5UoU862OSkBj+5AEwhLRQ==
         selected: false
         status: Unchecked
-      - offset: 57
+      - offset: 70
         length: 7
         placeholder_text: // TODO
         initial_state:

@@ -2,6 +2,8 @@
 package propertiesExercise4
 
 class Counter {
+  private val i = 0
+
   var value = 0
 
   fun inc() {

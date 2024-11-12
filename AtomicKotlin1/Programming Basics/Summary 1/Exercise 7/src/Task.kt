@@ -4,8 +4,18 @@ package summaryIExercise7
 fun countDigits(number: Int, digit: Int): Int {
   var worker = number
   var occurrences = 0
+
+  val digitChar = digit.toString()[0]
+
   while (worker > 0) {
-    TODO()
+
+    var str: Char = (worker % 10).toString()[0]
+
+
+    if (str == digitChar) {
+      occurrences++
+    }
+    worker = worker / 10
   }
   return occurrences
 }
