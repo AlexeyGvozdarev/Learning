@@ -1,9 +1,9 @@
 // Packages/bbb.kt
 
 package bbb
-import K
+//import K
 import aaa.*
 
 fun g(i: Int): String {
-  return  "${K()} ${fa(i)}"
+  return  " ${fa(i)}"
 }
