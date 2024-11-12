@@ -7,7 +7,7 @@ files:
     visible: true
     placeholders:
       - offset: 32
-        length: 72
+        length: 76
         placeholder_text: // TODO
         initial_state:
           length: 7
@@ -55,5 +55,8 @@ files:
         selected: false
         status: Unchecked
     learner_created: false
+  - name: src/K.kt
+    visible: true
+    learner_created: true
 status: Unchecked
 record: -1
