@@ -1,7 +1,7 @@
 // Packages/bbb.kt
 
 package bbb
-import K
+//import K
 import aaa.*
 
 fun g(i: Int): String {
