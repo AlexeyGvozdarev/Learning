@@ -3,7 +3,9 @@ package variableArgumentListsExercise4
 import atomictest.eq
 
 fun flatten(listOfLists: List<List<String>>): List<String> {
-  TODO()
+  var string = mutableListOf<String>()
+  listOfLists.forEach { inner -> inner.forEach {el -> string += el } }
+  return string
 }
 
 fun main() {
