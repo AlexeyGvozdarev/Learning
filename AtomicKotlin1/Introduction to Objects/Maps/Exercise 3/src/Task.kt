@@ -10,25 +10,19 @@ class Hamster(val name: String) {
 }
 
 class Cage(private val maxCapacity: Int) {
-  private val hamsters: MutableList<Hamster> =
-    mutableListOf<Hamster>()
+  private val hamsters: MutableMap<String, Hamster> =
+    mutableMapOf()
 
   fun put(hamster: Hamster): Boolean =
     if (hamsters.size == maxCapacity)
       false
     else {
-      hamsters += hamster
+      hamsters[hamster.name] = hamster
       true
     }
 
-  fun get(name: String): Hamster {
-    for (hamster in hamsters) {
-      if (hamster.name == name) {
-        return hamster
-      }
-    }
-    throw NoSuchElementException("No hamster called $name")
-  }
+  fun get(name: String): Hamster =
+    hamsters.getValue(name)
 }
 
 fun main() {
@@ -38,5 +32,5 @@ fun main() {
   capture {
     cage.get("Bob")
   } eq "NoSuchElementException: " +
-    "Key Bob is missing in the map."
+          "Key Bob is missing in the map."
 }
