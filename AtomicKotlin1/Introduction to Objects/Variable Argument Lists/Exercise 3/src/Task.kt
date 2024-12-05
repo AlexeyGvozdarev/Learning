@@ -3,7 +3,11 @@ package variableArgumentListsExercise3
 import atomictest.eq
 
 fun listOfChunks(size: Int, vararg elements: String): List<List<String>> {
-  TODO()
+  var newList = elements.toList()
+  var chunkList = newList.chunked(size)
+
+  return chunkList
+
 }
 
 fun main() {

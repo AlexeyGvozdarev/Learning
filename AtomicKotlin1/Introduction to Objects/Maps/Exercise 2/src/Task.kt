@@ -1,4 +1,5 @@
 // Maps/Task2.kt
+// Maps/Task2.kt
 package mapsExercise2
 import atomictest.capture
 import atomictest.eq
@@ -22,7 +23,12 @@ class Cage(private val maxCapacity: Int) {
     }
 
   fun get(name: String): Hamster {
-    TODO()
+    for (hamster in hamsters) {
+      if (hamster.name == name) {
+        return hamster
+      }
+    }
+    throw NoSuchElementException("No hamster called $name")
   }
 }
 
@@ -33,5 +39,5 @@ fun main() {
   capture {
     cage.get("Bob")
   } eq "NoSuchElementException: " +
-    "No hamster called Bob"
+          "No hamster called Bob"
 }

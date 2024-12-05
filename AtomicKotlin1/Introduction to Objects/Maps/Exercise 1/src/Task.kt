@@ -1,6 +1,7 @@
 // Maps/Task1.kt
 package mapsExercise1
 import atomictest.eq
+import extensionlambdas.va
 
 class Contact(val name: String, val number: String) {
   override fun toString(): String {
@@ -9,7 +10,12 @@ class Contact(val name: String, val number: String) {
 }
 
 fun buildNumberToContactMap(contactList: List<Contact>): Map<String, Contact> {
-  TODO()
+  var contactMap = mutableMapOf<String,Contact>()
+
+  for (value in contactList){
+    contactMap[value.number] = value
+  }
+  return contactMap
 }
 
 fun main() {
