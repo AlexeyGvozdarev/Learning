@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 99
-        length: 22
+        length: 45
         placeholder_text: "fun abort(s: String) {}"
         initial_state:
           length: 23
@@ -13,8 +13,8 @@ files:
         encrypted_possible_answer: Sq8AexvTo/79Je8gAm/II2x0tWEHbvhqDB3qd3GWvob8AF5DcF8tJXWDKwiLDFlr
         selected: true
         status: Solved
-      - offset: 121
-        length: 24
+      - offset: 161
+        length: 94
         placeholder_text: TODO()
         initial_state:
           length: 6

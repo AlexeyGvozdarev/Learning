@@ -6,14 +6,11 @@ out/
 *.iml
 !**/src/main/**/out/
 !**/src/test/**/out/
-**/build/
 !**/build/
+!**/.gradle/
+
 ### Kotlin ###
 .kotlin
-
-AtomicKotlin1/.gradle
-AtomicKotlin1/build
-**/.gradle/
 
 ### VS Code ###
 .vscode/
