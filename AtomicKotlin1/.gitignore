@@ -30,3 +30,5 @@ render.experimental.xml
 .vscode
 /output
 /outputs
+/.gradle/
+/build/
