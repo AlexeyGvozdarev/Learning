@@ -28,7 +28,7 @@ fun convert(valueType: Int, index: Int){
       }
     }else if (valueType > (5 * index) && valueType < (9 * index)){
       val overV = (5 * index)
-      intToRomanNumeralMap[overV]?.let { romanString += it }
+      intToRomanNumeralMap[overV]?.let { romanString += it } // в этой строке было {romanstring.plus()} и оно работало через раз
     }
       repeat((valueType / index) - 5){
         val count = ((valueType / valueType) * index)
