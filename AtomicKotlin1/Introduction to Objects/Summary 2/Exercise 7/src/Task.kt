@@ -6,6 +6,7 @@ val intToRomanNumeralMap: Map<Int, String> = mutableMapOf(1000 to "M", 900 to "C
 var romanString = ""
 
 fun convertToRoman(number: Int): String {
+  clear()
   val thousand = (number / 1000) * 1000
   val hundred = ((number % 1000) / 100) * 100
   val tens = ((number % 100) / 10) * 10
@@ -38,11 +39,14 @@ fun convert(valueType: Int, index: Int){
     intToRomanNumeralMap[valueType]?.let { romanString += it }
   }
 }
+fun clear(){
+  romanString =""
+}
 
 fun main() {
-//  convertToRoman(23) eq "XXIII"
-//  convertToRoman(44) eq "XLIV"
-//  convertToRoman(100) eq "C"
-//  convertToRoman(2018) eq "MMXVIII"
-  println(convertToRoman(23))
+  convertToRoman(23) eq "XXIII"
+  convertToRoman(44) eq "XLIV"
+  convertToRoman(100) eq "C"
+  convertToRoman(2018) eq "MMXVIII"
+    // println(convertToRoman(23))
 }
