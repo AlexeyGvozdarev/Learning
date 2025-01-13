@@ -3,8 +3,8 @@ files:
   - name: src/Task.kt
     visible: true
     placeholders:
-      - offset: 248
-        length: 15
+      - offset: 60
+        length: 0
         placeholder_text: // countPercent
         initial_state:
           length: 15
@@ -13,8 +13,8 @@ files:
         encrypted_possible_answer: H+tAktj5521Xsou4lnjdyqimEG0v5hHnBVYn7v0ElxjwhnI7XmaUupeXp6iEsH7ojwBSzVpne2/IoCTM4oyRaA2HVqwTK9DAyXlovzIZXBYpf+LQUrWqUHfBH0F/av9gvjmI1MAyFMFbZrQ5YEwAIuiylPrmNDHQBS6V9S94rOKlAFa5mmSGwSkYazzgnPWm9hWnXqGg7MeZsAyGZMFv8g==
         selected: false
         status: Unchecked
-      - offset: 319
-        length: 6
+      - offset: 60
+        length: 0
         placeholder_text: TODO()
         initial_state:
           length: 6
@@ -23,8 +23,8 @@ files:
         encrypted_possible_answer: wFdcDa4Jk0REBcaLTOFraGRwb+Y3uY0n6Pe6k2tg/s42SjwYL9TIbOegVNi9HIfb
         selected: false
         status: Unchecked
-      - offset: 382
-        length: 6
+      - offset: 60
+        length: 0
         placeholder_text: TODO()
         initial_state:
           length: 6
@@ -33,8 +33,8 @@ files:
         encrypted_possible_answer: icnwH7PmrPV4P/5OekZYrxLJeJYN7cegxkHyCCfbeufgZzucAkzpO2XN2gMBIuCT
         selected: false
         status: Unchecked
-      - offset: 447
-        length: 6
+      - offset: 60
+        length: 0
         placeholder_text: TODO()
         initial_state:
           length: 6
@@ -43,8 +43,8 @@ files:
         encrypted_possible_answer: eE/6bgGC0u+w5Gi932WfQHCSCn/Kzv0uXy3tP6XpfyBEF3Sv7MzNIefM2/mcYst6
         selected: false
         status: Unchecked
-      - offset: 510
-        length: 6
+      - offset: 60
+        length: 0
         placeholder_text: TODO()
         initial_state:
           length: 6
