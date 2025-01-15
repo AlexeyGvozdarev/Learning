@@ -4,7 +4,8 @@ import atomictest.capture
 import atomictest.eq
 
 fun repeatChar(ch: Char, n: Int): String {
-  TODO()
+  var str = ch.toString().repeat(n)
+  return str
 }
 
 fun main() {
