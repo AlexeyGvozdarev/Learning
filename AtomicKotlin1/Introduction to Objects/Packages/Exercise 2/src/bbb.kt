@@ -5,5 +5,5 @@ package bbb
 import aaa.*
 
 fun g(i: Int): String {
-  return  " ${fa(i)}"
+  return  "${K()} ${fa(i)}"
 }
