@@ -8,6 +8,9 @@ out/
 !**/src/test/**/out/
 !**/build/
 !**/.gradle/
+**/.gradle/
+**/*.yaml
+*.yaml
 
 ### Kotlin ###
 .kotlin
