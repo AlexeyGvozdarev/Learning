@@ -9,8 +9,6 @@ out/
 !**/build/
 !**/.gradle/
 **/.gradle/
-**/*.yaml
-*.yaml
 
 ### Kotlin ###
 .kotlin

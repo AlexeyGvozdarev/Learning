@@ -44,3 +44,5 @@ render.experimental.xml
 **/.gradle/
 **/*.yaml
 *.yaml
+
+**/.gradle/
