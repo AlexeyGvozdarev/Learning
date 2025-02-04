@@ -1,0 +1,76 @@
+type: edu
+files:
+  - name: src/Task.kt
+    visible: true
+    placeholders:
+      - offset: 68
+        length: 21
+        placeholder_text: /*TODO*/
+        initial_state:
+          length: 8
+          offset: 68
+        initialized_from_dependency: false
+        encrypted_possible_answer: wCSygYzGzdo49Go1Upb1geJDzbAd+QJ4Y/5jRsUdz1s=
+        selected: true
+        status: Solved
+      - offset: 121
+        length: 10
+        placeholder_text: TODO()
+        initial_state:
+          length: 6
+          offset: 108
+        initialized_from_dependency: false
+        encrypted_possible_answer: t5fFsdSfW4gRuSvmBPonlQ==
+        selected: true
+        status: Solved
+      - offset: 166
+        length: 10
+        placeholder_text: TODO()
+        initial_state:
+          length: 6
+          offset: 149
+        initialized_from_dependency: false
+        encrypted_possible_answer: yL2aA7pNznHYH+Cbajzc0w==
+        selected: true
+        status: Solved
+      - offset: 211
+        length: 10
+        placeholder_text: TODO()
+        initial_state:
+          length: 6
+          offset: 190
+        initialized_from_dependency: false
+        encrypted_possible_answer: 1CqjDtH+/Sag/cB0P6Z5dg==
+        selected: false
+        status: Solved
+      - offset: 254
+        length: 10
+        placeholder_text: TODO()
+        initial_state:
+          length: 6
+          offset: 229
+        initialized_from_dependency: false
+        encrypted_possible_answer: v1zsHW4Ly6B74uq6aNjWLQ==
+        selected: true
+        status: Solved
+      - offset: 327
+        length: 0
+        placeholder_text: TODO()
+        initial_state:
+          length: 6
+          offset: 271
+        initialized_from_dependency: false
+        encrypted_possible_answer: ntbAfCT4WRRGkMe6nKKiAA==
+        selected: true
+        status: Solved
+    learner_created: false
+  - name: test/Tests.kt
+    visible: false
+    learner_created: false
+feedback_link: |
+  https://docs.google.com/forms/d/e/1FAIpQLSdkaliSwYkjiV21bZl0yP-In2g5p17sAQCfaGjyHx_QYMWTiQ/viewform?usp=pp_url&entry.189755027=Introduction+to+Objects+%2F+Properties+%2F+Exercise1
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 12 Oct 2024 04:50:32 UTC"
+record: -1
